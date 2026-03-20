@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #090e14;
+  --surface: #0f1923;
+  --surface2: #162030;
+  --border: #1e2f42;
+  --accent: #00d4aa;
+  --accent2: #ff6b35;
+  --danger: #ff4444;
+  --text: #e8f0f7;
+  --muted: #5a7a96;
+}
+
+html, body {
+  background-color: #090e14;
+  color: #e8f0f7;
+  min-height: 100vh;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
